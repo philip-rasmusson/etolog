@@ -139,16 +139,3 @@ const Container = (props) => {
 };
 
 export default Container;
-
-// <div className="content-left">
-// <h1>This is section {props.section}.</h1>
-// <p>{props.children}</p>
-// </div>
-// <div className="content-middle">
-// <h1>This is section {props.section}.</h1>
-// <img className="img-small" src={cat}></img>
-// </div>
-// <div className="content-right">
-// <h1>This is section {props.section}.</h1>
-// <p>{props.children}</p>
-// </div>
