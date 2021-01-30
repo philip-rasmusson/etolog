@@ -1,0 +1,6 @@
+.mainPic {
+  z-index: -100;
+  width: 100%;
+  opacity: 0.8;
+  box-shadow: black 0px 10px 10px;
+}

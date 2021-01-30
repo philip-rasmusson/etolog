@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.NavbarList {
+  background-color: rgb(31, 41, 51);
+  color: white;
+  padding: 1rem;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  z-index: 200;
+  box-shadow: rgb(49, 49, 49) 0px 10px 10px;
+}
+
+.logoYellow {
+  color: rgb(190, 169, 44);
+}
+
+.title {
+  font-size: 2rem;
+  flex-grow: 5;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.slogan {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2vw;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 45vw;
+  z-index: 200;
+  height: 0;
+  text-shadow: black 3px 3px 3px;
+}
+
+li {
+  list-style: none;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1vw;
+  flex-grow: 1;
+}
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(201, 184, 87);
+}
+.burger {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .navLinks,
+  .slogan {
+    display: none;
+  }
+  .title {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 5vw;
+  }
+  .burger {
+    flex-grow: 1;
+    display: inline;
+    font-size: 5vw;
+    text-align: right;
+    padding-right: 2rem;
+  }
+  .NavbarList {
+    justify-content: space-between;
+  }
+}

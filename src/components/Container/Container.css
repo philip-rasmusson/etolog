@@ -1,0 +1,18 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.imgSmall {
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.hidden {
+  display: none;
+}
+.boxHeadline {
+  text-align: center;
+}
